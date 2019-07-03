@@ -7,10 +7,9 @@
 def happy_birthday(birthday_kids)
  birthday_kids.each do |kids_name, age|
 age = ""
-if age >= 12
+while age <= 12
    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
- else 
-   puts nil
+ 
  end 
   end
  end
