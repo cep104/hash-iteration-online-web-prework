@@ -9,6 +9,8 @@ def happy_birthday(birthday_kids)
 age = ""
 if age >= 12
    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+ else 
+   puts nil
  end 
   end
  end
